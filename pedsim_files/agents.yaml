@@ -1,0 +1,72 @@
+waypoints:
+  waypoint_id_1: [0.58, 2.4, 3]
+  waypoint_id_2: [0, -1.6, 3]
+  waypoint_id_3: [3.45, -0.37, 3]
+  # waypoint_id_4: [1.73, -5.13, 3]
+  # waypoint_id_5: [1.9, -0.38, 3]
+  # waypoint_id_6: [-6.31, -0.93, 3]
+  # waypoint_id_7: [-3.8, -5.3, 3]
+  # waypoint_id_8: [-7.33, 5.42, 3]
+  # waypoint_id_9: [-3.4, 2.2, 3]
+  # waypoint_id_10: [x, y, radius]
+agent_1:
+  n: 3
+  x: -2.5
+  y: 4.6
+  w: [waypoint_id_1, waypoint_id_2]
+  dx: 1
+  dy: 1
+agent_2:
+  n: 2
+  x: -3.6
+  y: -3.1
+  w: [waypoint_id_2, waypoint_id_3]
+  dx: 1
+  dy: 1
+agent_3:
+  n: 1
+  x: 2.1
+  y: -3.8
+  w: [waypoint_id_3, waypoint_id_1]
+  dx: 1
+  dy: 1
+# agent_4:
+#   n: 4
+#   x: 6.15
+#   y: 0
+#   w: [waypoint_id_7, waypoint_id_8]
+#   dx: 1
+#   dy: 1
+# agent_5:
+#   n: 1
+#   x: -3.4
+#   y: 2
+#   w: [waypoint_id_9, waypoint_id_10]
+#   dx: 1
+#   dy: 1
+# agent_6:
+#   n: 2
+#   x: 0
+#   y: 0
+#   w: [waypoint_id_2, waypoint_id_9]
+# agent_7:
+#   n: 1
+#   x: 0
+#   y: 0
+#   w: [waypoint_id_10, waypoint_id_1]
+# agent_8:
+#   n: 3
+#   x: 0
+#   y: 0
+#   w: [waypoint_id_3, waypoint_id_8]
+# agent_9:
+#   n: 1
+#   x: 0
+#   y: 0
+#   w: [waypoint_id_4, waypoint_id_7]
+# agent_10:
+#   n: 3
+#   x: 0
+#   y: 0
+#   w: [waypoint_id_5, waypoint_id_6]
+  
