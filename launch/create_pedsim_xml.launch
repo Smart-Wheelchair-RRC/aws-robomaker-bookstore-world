@@ -5,9 +5,9 @@
     <arg name="map_name" default="map.yaml"/>
     <arg name="scenario_path" default="$(find aws_robomaker_bookstore_world)/pedsim_files"/>
     <arg name="scenario_name" default="aws_bookstore.xml"/>
-    <arg name="use_map_origin" default="false"/>
+    <arg name="use_map_origin" default="true"/>
     
-    <arg name="add_agents" default="false"/>
+    <arg name="add_agents" default="true"/>
     <arg name="agents_info_path" default="$(find aws_robomaker_bookstore_world)/pedsim_files"/>
     <arg name="agents_info_name" default="agents.yaml"/>
   </include>

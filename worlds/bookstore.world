@@ -1136,4 +1136,7 @@
       <direction>0 0 -1</direction>
     </light>
   </world>
+
+    <plugin name="ActorPosesPlugin" filename="libActorPosesPlugin.so">
+    </plugin>
 </sdf>
